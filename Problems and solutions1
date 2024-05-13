@@ -20,6 +20,13 @@ open the location of python.exe and execute it with the path of app.py then the 
 6) Build some analytical application on top of Azure Event HUB. You ingest all data to event hub. You can have Kafka, where only usecase related logs/events are passed to your 
 Analytical appication. 
 
+7) My daily habits or routines has lot of matrix. Get that input in some format and chart it. Which helps to identify when certain things happened in life. 
+Eg - Got headache because you have not followed the rules of hydration. 
+So there will be many rules. When certin things happened you can ask why, so the Ml will tell its becasue of this
+
+Challenge - How to record the scores automatically. 
+---Challenge in almost all of the application is that finding or thinking of new methods of discovering drugs etc. we know that we can find formula or relations from data. But how to make it practical is some thing that we need to think of. 
+
 ------------- My Actions ----------
 I need  contribute meaningfully to people around and bring REAL change.
 With that in mind, Have decided to allocate few hours every day for next 10 days (Check out the link - Caledly)
