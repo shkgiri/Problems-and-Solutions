@@ -1,0 +1,150 @@
+1)To develop a scalable threat model with connection to all dyanamic and chaning data + Logics (which are static to some extend)
+https://link.springer.com/article/10.1007/s10270-021-00898-7
+
+Disecting PYTM - They use python class..
+ 
+2) Whistle counter for Amma
+Count the number of whisle and when it reaches X - say 20. Vibrate in noise watch,, or make a sound from RPi
+
+3)Tool for Sec Governance team - Gov team is collecting artefacts and sharing it to so many stakholders, it is the same artefacts in various formats. A tool where artefacts are stored once and retreived multiple times based on various requriedment eg - Evidence of NIST - AC-17b - Authorize remote connections - Evidence Has to be given to internal auditor, ISO, and RBI or any compliance. Once place collection and multiple place retrival.    
+
+4)What-If Tool Analysis - eg 
+>>Meaning - you have all data about the business. what (happens) if datacenter fails, if cloud provider got breached, what is the loss, how much is  quantified terms. 
+>>I have the input and i have the expected result what will be the formula..
+   In excel we have What-If Analysis option - Need to try what it gives.
+5) Web UI for Python Applicaion or Code you work on.
+we have to use Python Flask for this. 
+If you are using Anaconda in windows, we have to create a web directory and create a file called app.py and with in that another directory called templates, within that home.htmls.
+open the location of python.exe and execute it with the path of app.py then the console will openup with local url with port. You are done. 
+
+6) Build some analytical application on top of Azure Event HUB. You ingest all data to event hub. You can have Kafka, where only usecase related logs/events are passed to your 
+Analytical appication. 
+
+------------- My Actions ----------
+I need  contribute meaningfully to people around and bring REAL change.
+With that in mind, Have decided to allocate few hours every day for next 10 days (Check out the link - Caledly)
+to teach topics which i have learned over the years. Its an inperson training for ANYONE, irrespective of location or expertise level or domain in which they currenly in.
+There is no prerequisite at all - Any one can Learn, its our right to get knowledge. 
+I will model the teaching according to your level of expertise. 
+This initiative is to genuinely help all sections of the society to contribute and enrich self .
+Topics:
+> "How to write programs using Python" - Fundamental 
+>"MITRE ATT&CK Fundamental to advanced"
+>"Fundamentals of Adversary Emulation"
+
+------------- My Learning Insights - Generic ---------
+>Programming in reality going to be understanding the laws of nature and realtionship between smaller entities and till between rules. 
+
+
+
+----------- Intresting facts in python ------
+
+>when x=1 ; Str(x) is not equal to x ; x*3 gives 3 while str(x)*3 gives 111
+>Input basically is str so need to cast if we need to work with numbers.Eg input("a number");print(5*num) is diffrent from int(input(a number)) and print (5*num)
+>While loop  checks the condition - REPEATS UNTILL THE CONDITION IS FALSE
+>FOR loop is very strait forward for i in range(start,stop,step)
+For Vs While - For loop is bounded and end the loop early using "break". While loop is unbounded and does not have default counter, Can say like while loop is the atomic version of FOR loop. 
+
+>Strings are immutable
+>Few Methods in python - 
+
+Split (will split a strings with separator in to a LIST)-- eg test="Shankar Murali";test.split()
+Set() - this method is used for mathematical set operation like union intersection etc
+
+>Boolean - 3*True = 3 ;3*False = 0 (this will reduce code)
+>>List comprehension - squares = [n**2 for n in range(10)]; squares another -- planet='PLUTO' ;[char+'! ' for char in planet]
+>>STRING METHODS - variable.lower() ; upper() ; Start index of a particular string claim.index('plan') ; .split() ; .join()
+'/'.join([month, day, year])
+.Format() usage
+"{}, you'll always be the {}th planet to me.".format(planet, position)
+
+You can also place indexes in placeholder like {0},{1} etc accordingly we can place repeated variables.
+
+Other Placeholder tricks
+pluto_mass = 1.303 * 10**22
+earth_mass = 5.9722 * 10**24
+population = 52910390
+#         2 decimal points   3 decimal points, format as percent     separate with commas
+"{} weighs about {:.2} kilograms ({:.3%} of Earth's mass). It is home to {:,} Plutonians.".format(
+    planet, pluto_mass, pluto_mass / earth_mass, population,
+)
+
+List is called by l[] and dictionaries are called by d={} and values of dictionaries are accessed by [] d['samsung']
+
+>>if str.isdigit(zip_code[i]):
+
+--------------- Errors in Python --------------
+
+--------------- Completed Solutions to various problems ---------
+
+1)##Find common charecter in two string and Print - Done
+
+2)#Calculate number of vowel using for loop -- Done
+
+3)## calculate common words in a sentance ????????
+
+4) Am i financially prepared Program ---Done
+
+I am trying to develop "Am i prepared" with input from excel converted to list and from list as variable in to a mermaid Gaant chart using for loop. the final output is a gant chart + other logic applied to say "YES you are finanically great for 2025" etcc..
+//It seems there are limitations in Python list, where class is for rescue and that is applied in PYTM project. 
+//Try working with tuple, arrary or other data structures.
+
+Step 1 - Get excel data to list in python.
+https://docs.google.com/spreadsheets/d/1pAYwskrhIsrIg68RMWv3_AS5qjkXGiY3t4ts-Xxl4Yo/edit?usp=sharing
+
+Step2 - create MerStory with list variables.
+
+Step 3 - Chart it the way you wish.
+
+
+5) How to see problems around with mathematical eyes and create Math model and then solve it with Python code. You will feel it 
+
+Eg ..I have a real data in g sheet. Now change that in to list in python, then create a function in python that tells me if i am financially prepared. --Done
+
+----Most of d below r from Kaggle Learning & MIT
+1) You work for a company that provides data services. For $100/month, your company provides 15 gigabytes (GB) of data. Then, any additional data is billed at $0.10/MB (or $100/GB, since 1,000 MB are in 1 GB).
+
+Sol - get_phone_bill(15.1) = 110 while get_phone_bill(14) = 100
+
+2)In Mexico, foods and beverages that are high in saturated fat, trans fat, sugar, sodium, and/or calories appear with warning labels that are designed to help consumers make healthy food choices.
+
+In this question, you'll work with a function get_labels() that takes the nutritional details about a food item and prints the needed warning labels. This function takes several inputs:
+
+3)You own a restaurant with five food dishes, organized in the Python list menu below. One day, you decide to:
+
+remove bean soup ('bean soup') from the menu, and
+add roasted beet salad ('roasted beet salad') to the menu.
+
+4) Createa a boolean from test rating
+test_ratings = [1, 2, 3, 4, 5]
+test_liked = [i>=4 for i in test_ratings]
+print(test_liked)
+
+5)In this question, you'll use this list comprehension to define a function percentage_liked() that takes one argument as input:
+
+ratings: list of ratings that people gave to a movie, where each rating is a number between 1-5, inclusive
+We say someone liked the movie, if they gave a rating of either 4 or 5. Your function should return the percentage of people who liked the movie.
+
+For instance, if we supply a value of [1, 2, 3, 4, 5, 4, 5, 1], then 50% (4/8) of the people liked the movie, and the function should return 0.5.
+
+6)Purple shell effect.
+The next iteration of Mario Kart will feature an extra-infuriating new item, the Purple Shell. When used, it warps the last place racer into first place and the first place racer into last place. Complete the function below to implement the Purple Shell's effect.
+7) List of list and find the 2nd member of last list. :)
+
+8)fashionably late
+We're using lists to record people who attended our party and what order they arrived in. For example, the following list represents a party with 7 guests, in which Adela showed up first and Ford was the last to arrive:
+
+party_attendees = ['Adela', 'Fleda', 'Owen', 'May', 'Mona', 'Gilbert', 'Ford']
+A guest is considered 'fashionably late' if they arrived after at least half of the party's guests. However, they must not be the very last guest (that's taking it too far). In the above example, Mona and Gilbert are the only guests who were fashionably late.
+
+9) Given a list of meals served over some period of time, return True if the
+    same meal has ever been served two days in a row, and False otherwise.
+10) Black jack table - casino. 
+Monte claro method
+
+11)Check if the input to the function is a 5 digit zipcode. hint str.isdigit.
+
+12)A researcher has gathered thousands of news articles. But she wants to focus her attention on articles including a specific word. Complete the function below to help her filter her list of articles.
+
+13) MIT Ps1 - Calculate Amount to save per month with intrest rate and salary increment.
+https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/mit6_0001f16_ps1/
