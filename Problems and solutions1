@@ -25,6 +25,10 @@ Eg - Got headache because you have not followed the rules of hydration.
 So there will be many rules. When certin things happened you can ask why, so the Ml will tell its becasue of this
 
 Challenge - How to record the scores automatically. 
+
+8) Get input from Diagram and pass the output as XML or other format to program behind (Python Code)?
+Code is here <link> - Problem Draw rectangle in draw.io and pass it on to python to calculate area. 
+
 ---Challenge in almost all of the application is that finding or thinking of new methods of discovering drugs etc. we know that we can find formula or relations from data. But how to make it practical is some thing that we need to think of. 
 My be lets think of data and result
 drink water, exercise, motn = NO headache
